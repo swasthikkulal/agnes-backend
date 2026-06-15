@@ -10,9 +10,7 @@ const userSchema = mongoose.Schema({
     password: {
         type: String
     },
-    age:{
-        type:Number
-    }
+
 })
 
 export default mongoose.model("User", userSchema)
